@@ -16,7 +16,7 @@ public class LogInPage{
 	driver.findElement(firstName).sendKeys(firstNameVal);
 		return this;
 	}
-	
+	//SB check
 	public LogInPage enterSecondName(String secondNameVal) {
 		driver.findElement(lastName).sendKeys(secondNameVal);
 		return this;
